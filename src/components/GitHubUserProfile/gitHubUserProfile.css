@@ -1,0 +1,36 @@
+.user-profile {
+    margin: auto;
+    width: 29em;
+    height: 7em;
+    background: #fff;
+    border-radius: 0.3em;
+}
+
+.user-profile #username {
+    margin: auto;
+    margin-top: -4.4em;
+    margin-left: 5.8em;
+    color: #16a085;
+    font-size: 1.53em;
+    font-family: "Coda", sans-serif;
+    font-weight: bold;
+}
+
+.user-profile > .description {
+    margin: auto;
+    margin-top: 1.35em;
+    margin-right: 3em;
+    width: 20em;
+    color: #7f8c8d;
+    font-size: 0.87em;
+    font-family: "varela round", sans-serif;
+}
+
+.user-profile > img#avatar {
+    padding: 0.7em;
+    margin-left: 0.3em;
+    margin-top: 0.3em;
+    height: 6.23em;
+    width: 6.23em;
+    border-radius: 18em;
+}
