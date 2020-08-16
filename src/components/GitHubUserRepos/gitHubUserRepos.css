@@ -1,0 +1,54 @@
+.container {
+    padding-top: 50px;
+}
+
+.table {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-flow: column nowrap;
+    color: white;
+}
+.table .th {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row wrap;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0.5em;
+    background: #e74c3c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.table .th .td {
+    display: -webkit-box;
+    display: flex;
+    width: calc(100% / 4);
+    font-size: 14px;
+}
+.table .tr {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row wrap;
+    padding: 0.5em;
+}
+.table .tr:nth-child(even) {
+    background: #3498db;
+}
+.table .tr:nth-child(odd) {
+    background: #2980b9;
+}
+.table .tr .td {
+    display: -webkit-box;
+    display: flex;
+    width: calc(100% / 4);
+    font-size: 14px;
+}
+.table .th .td.sort {
+    cursor: pointer;
+}
