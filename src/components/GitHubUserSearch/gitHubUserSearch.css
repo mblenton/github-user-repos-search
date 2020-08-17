@@ -1,0 +1,31 @@
+.search {
+    margin: auto;
+    width: 29em;
+}
+.Form {
+    display: flex;
+}
+
+.Form input {
+    height: 40px;
+    width: 350px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    outline: none;
+    padding: 0px 1rem;
+    font-size: 16px;
+}
+
+.Form button {
+    height: 40px;
+    width: 100px;
+    background: #222;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.Form button:focus {
+    outline: 0;
+}
