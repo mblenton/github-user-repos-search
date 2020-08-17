@@ -28,7 +28,11 @@ export const GitHubUserReposSearch = (): JSX.Element => {
                 <header> GitHub User Repos Search </header>
                 <GitHubUserSearch setUsername={setUsername} />
                 <main>
-                    {status === "error" && <div>{error}</div>}
+                    {status === "error" && (
+                        <div className="horizontalyCenteredWrapper">
+                            <div>Error: {error}</div>
+                        </div>
+                    )}
                     {status === "fetching" && (
                         <div className="horizontalyCenteredWrapper">
                             <div className="loading" />
