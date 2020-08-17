@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {IGitHubUserData} from "../index";
+import {IGitHubUserData} from "../../hooks/useGitHubUserReposFetch";
 import "./gitHubUserRepos.css";
 
 type Sorted = "asc" | "desc" | "notsorted";

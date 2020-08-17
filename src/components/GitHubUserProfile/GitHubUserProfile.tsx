@@ -1,5 +1,5 @@
 import React from "react";
-import {IGitHubUserData} from "../index";
+import {IGitHubUserData} from "../../hooks/useGitHubUserReposFetch";
 import "./gitHubUserProfile.css";
 
 interface IProps {
