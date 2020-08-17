@@ -3,11 +3,12 @@ import {IGitHubUserData} from "../../hooks/useGitHubUserReposFetch";
 import "./gitHubUserProfile.css";
 
 interface IProps {
+    username: string;
     userDataProfile: IGitHubUserData["user"];
 }
 
-export const GitHubUserProfile = ({userDataProfile}: IProps): JSX.Element => {
-    const {avatarUrl, username, email, url} = userDataProfile;
+export const GitHubUserProfile = ({username, userDataProfile}: IProps): JSX.Element => {
+    const {avatarUrl, email, url} = userDataProfile;
     return (
         <div className="user-profile">
             <img id="avatar" src={avatarUrl} />

@@ -5,7 +5,6 @@ const GITHUB_GRAPHQL_API_URL = process.env.GITHUB_GRAPHQL_API_URL;
 
 export interface IGitHubUserData {
     user: {
-        username: string;
         avatarUrl: string;
         url: string;
         email: string;

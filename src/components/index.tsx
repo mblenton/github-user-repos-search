@@ -46,7 +46,10 @@ export const GitHubUserReposSearch = (): JSX.Element => {
                                 </div>
                             )}
                             {isUserFound && (
-                                <GitHubUserProfile userDataProfile={gitHubUserData.data.user} />
+                                <GitHubUserProfile
+                                    username={username}
+                                    userDataProfile={gitHubUserData.data.user}
+                                />
                             )}
                             {userHasRepos && (
                                 <GitHubUserRepos
